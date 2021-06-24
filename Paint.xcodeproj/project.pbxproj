@@ -13,6 +13,8 @@
 		0B60EB5A267D36EB000712F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B60EB58267D36EB000712F4 /* Main.storyboard */; };
 		0B60EB5C267D36EC000712F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B60EB5B267D36EC000712F4 /* Assets.xcassets */; };
 		0B60EB5F267D36EC000712F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B60EB5D267D36EC000712F4 /* LaunchScreen.storyboard */; };
+		0BBFA7DC268372AD00636300 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFA7DB268372AD00636300 /* UIImageExtension.swift */; };
+		0BBFA7DD26837C7F00636300 /* MyPaintStyleTransferIteration1000.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFA7D9268371AE00636300 /* MyPaintStyleTransferIteration1000.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0B60EB5B267D36EC000712F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B60EB5E267D36EC000712F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B60EB60267D36EC000712F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBFA7D9268371AE00636300 /* MyPaintStyleTransferIteration1000.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyPaintStyleTransferIteration1000.mlmodel; sourceTree = "<group>"; };
+		0BBFA7DB268372AD00636300 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		0B60EB51267D36EB000712F4 /* Paint */ = {
 			isa = PBXGroup;
 			children = (
-				0B60EB52267D36EB000712F4 /* AppDelegate.swift */,
-				0B60EB54267D36EB000712F4 /* SceneDelegate.swift */,
+				0BBFA7DF26837F0400636300 /* Utils */,
+				0BBFA7DE26837EE000636300 /* Shared */,
 				0B60EB56267D36EB000712F4 /* ViewController.swift */,
 				0B60EB58267D36EB000712F4 /* Main.storyboard */,
+				0BBFA7D9268371AE00636300 /* MyPaintStyleTransferIteration1000.mlmodel */,
 				0B60EB5B267D36EC000712F4 /* Assets.xcassets */,
 				0B60EB5D267D36EC000712F4 /* LaunchScreen.storyboard */,
 				0B60EB60267D36EC000712F4 /* Info.plist */,
 			);
 			path = Paint;
+			sourceTree = "<group>";
+		};
+		0BBFA7DE26837EE000636300 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0B60EB52267D36EB000712F4 /* AppDelegate.swift */,
+				0B60EB54267D36EB000712F4 /* SceneDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0BBFA7DF26837F0400636300 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0BBFA7DB268372AD00636300 /* UIImageExtension.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBFA7DD26837C7F00636300 /* MyPaintStyleTransferIteration1000.mlmodel in Sources */,
 				0B60EB57267D36EB000712F4 /* ViewController.swift in Sources */,
 				0B60EB53267D36EB000712F4 /* AppDelegate.swift in Sources */,
+				0BBFA7DC268372AD00636300 /* UIImageExtension.swift in Sources */,
 				0B60EB55267D36EB000712F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
